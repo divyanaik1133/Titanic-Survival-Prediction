@@ -12,11 +12,11 @@ Develop a machine learning model to predict whether a passenger survived the Tit
 - Model Evaluation (Accuracy, Precision, Recall, F1-Score)
 
 ## 📁 Project Structure
-- `data/` : Titanic dataset
-- `models/` : Trained model, scaler
-- `notebooks/` : Model development in Jupyter Notebook
-- `src/` : Modular scripts
-- `README.md` : Project overview and performance analysis
+-dataset/ : Contains the Titanic dataset
+-models/ : Stores the trained model and any preprocessing objects (like scalers or encoders)
+-Titanic_Survival_Prediction.ipynb : Jupyter Notebook for model development, training, and evaluation
+-README.md : Project overview and performance analysis
+-requirements.txt : Python dependencies
 
 ## 📈 Performance Metrics
 -Accuracy  : 1.0000
